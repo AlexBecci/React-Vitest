@@ -14,7 +14,7 @@ function Accordion({ title, children }: AccordionProps) {
                 <h3>{title}</h3>
                 <button onClick={() => {
                     setOpen(!open)
-                }}> {open ? "Close" : "Open"}</button>ß
+                }}> {open ? "Close" : "Open"}</button>
             </div>
             {open && <div> {children} </div>}
         </div>
